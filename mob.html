@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samarth Snacks</title>
+    <style>
+        *{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: black;
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+    font-family: system-ui;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media(max-width: 600px){
+    body{
+        background-color: black;
+        background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);  
+    }
+}
+@media(min-width: 1025px){
+    body{
+        background-color: black;
+        background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+    }
+}
+#main{
+    height: 100%;
+    /*background-color: white;*/
+    display: flex;
+    flex-direction: column;
+}
+#head1{
+    height: 170px;
+    background-color: blue;
+    display: flex;
+    text-align: center;
+}
+#head1 img{
+    height: 170px;
+    width: 100%;
+}
+#nav{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+#navco{
+    height: 60px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#navp{
+    font-size: 19px;
+    font-weight: 550;
+    margin-top: 15px;
+    color: white;
+}
+#navco button{
+    height: 35px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: yellow;
+    font-weight: 550;
+    margin-top: 12px;
+}
+#block{
+    height: 380px;
+    width: 90%;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 18px;
+    margin-top: 18px;
+}
+#blockh{
+    font-size: 38px;
+    padding-top: 10px;
+    padding-left: 25px;
+    font-weight: 600;
+}
+#imga{
+    height: 180px;
+    width: 80%;
+    padding-top: 18px;
+    padding-left: 28px;
+}
+#rupee{
+    font-size: 23px;
+    font-weight: 550;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+#butt{
+    height: 40px;
+    width: 80%;
+    border-radius: 20px;
+    background-color: yellow;
+    margin-left: 30px;
+    margin-top: 18px;
+    font-size: 19px;
+    font-weight: 500;
+}
+#order{
+    background-color: white;
+    margin-top: 18px;
+    height: 60px;
+    border-radius: 10px;
+}
+#ord{
+    height: 35px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: yellow;
+    font-weight: 550;
+    margin-top: 13px; 
+    margin-left: 55%;
+}
+#login{
+    background-color: white;
+    height: 400px;
+    width: 330px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+#headl{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 38px;
+    font-weight: 700;
+}
+#inpu{
+    height: 50px;
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 13px;
+    text-align: center;
+    border-radius: 10px;
+}
+#inp{
+    height: 50px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 13px;
+    text-align: center;
+    border-radius: 10px;
+}
+#sign{
+    margin-left: 240px;
+    padding-top: 30px;
+}
+#butto{
+    background-color: yellow;
+    color: black;
+    margin-left: 65px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    margin-top: 25px;
+}
+#int{
+    height: 470px;
+    width: 480px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 18px;
+    margin-top: 18px;
+}
+footer {
+    margin-top: 30px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div id="head1">
+        <img src="logo.jpg" id="logo" />
+      </div>
+      <div id="nav">
+        <div id="navco">
+          <a id="navp">Snacks</a>
+        </div>
+        <div id="navco">
+          <a id="navp">Drinks</a>
+        </div>
+        <div id="navco">
+          <a id="navp">Chinease</a>
+        </div>
+        <div id="navco">
+          <button>Order Now</button>
+        </div>
+      </div>
+      <div id="block">
+        <p id="blockh">Samosa</p>
+        <img src="samosa1.jpg" id="imga" />
+        <p id="rupee">Rs.25</p>
+        <button id="butt">Add To Cart +</button>
+      </div>
+      <div id="block">
+        <p id="blockh">Vadapao</p>
+        <img src="vadapao.jpg" id="imga" />
+        <p id="rupee">Rs.20</p>
+        <button id="butt">Add To Cart +</button>
+      </div>
+      <div id="block">
+        <p id="blockh">Kachori</p>
+        <img src="kachori.jpg" id="imga" />
+        <p id="rupee">Rs.25</p>
+        <button id="butt">Add To Cart +</button>
+      </div>
+      <div id="block">
+        <p id="blockh">Idli Vada</p>
+        <img src="idli.jpg" id="imga" />
+        <p id="rupee">Rs.30</p>
+        <button id="butt">Add To Cart +</button>
+      </div>
+      <div id="block">
+        <p id="blockh">Bread Pakoda</p>
+        <img src="bread pakoda.jpg" id="imga" />
+        <p id="rupee">Rs.20</p>
+        <button id="butt">Add To Cart +</button>
+      </div>
+      <div id="block">
+        <p id="blockh">Mix Pakora</p>
+        <img src="pakora.jpg" id="imga" />
+        <p id="rupee">Rs.80</p>
+        <button id="butt">Add To Cart +</button>
+      </div>
+      <div id="order">
+        <button id="ord">Order Now</button>
+      </div>
+      <div id="login">
+        <h1 id="headl">Log-In</h1>
+        <input placeholder="Enter E-mail" type="email" id="inpu" /><br />
+        <input placeholder="Enter Password" type="password" id="inp" /><br />
+        <a href="#" id="sign">Sign-Up</a><br />
+        <button type="submit" id="butto">Submit</button>
+      </div>
+      <footer>
+        <p>&copy; 2024 Fast Food Delight. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>

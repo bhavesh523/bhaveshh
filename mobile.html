@@ -3,8 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="mobile.css">
     <title>Mobile Web</title>
+    <style>
+        body{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    background-color: brown;
+}
+@media (max-width: 600px){
+    body{ 
+        font-size: 14px; 
+        padding: 0px; 
+        background-color: white;
+    }
+}
+@media (min-width: 1025px){
+    body{
+        font-size: 18px;
+        padding: 30px;
+        background-color: white;
+    }
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+#head{
+    height: 180px;
+    background-color:darkgreen;
+    color: white;
+    width: 100%;
+}
+#head1{
+    margin-top: 9px;
+    font-size: 33px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 40px;
+}
+#head2{
+    padding-top: 8%;
+    margin-top: 0%;
+    text-align: center;
+    font-size: 33px;
+    font-weight: 780;
+}
+#nav{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+#divnav1{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav1{
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+}
+#home{
+    height: 260px;
+    width: 100%;
+    background-color: darkgreen;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#ho1{
+    padding-left: 10px;
+    font-size: 27px;
+    font-weight: 700;
+}
+#ho2{
+    padding-left: 10px;
+    font-size: 16px;
+}
+#admission{
+    width: 100%;
+}
+#content{
+    height: 420px;
+    width: 100%;
+    background-color: darkgreen;
+    border-radius: 20px;
+}
+#ad1{
+    padding-left: 10px;
+    font-size: 27px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+#ad2{
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 550;
+}
+#ad3{
+    padding-left: 10px;
+    font-size: 16px;
+}
+#ad4{
+    padding-left: 10px;
+    font-size: 16px;
+}
+#ad5{
+    padding-left: 10px;
+    font-size: 16px;
+}
+#ad6{
+    padding-left: 10px;
+    font-size: 15px;
+}
+#content button{
+    margin-left: 10px;
+    height: 40px;
+    width: 150px;
+    background-color: yellow;
+    align-items: center;
+    padding: 10px 10px;
+    font-size: 16px;
+    font: bold;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+    </style>
 </head>
 <body>
     <div id="main">
